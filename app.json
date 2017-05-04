@@ -1,0 +1,8 @@
+{
+	"name": "Trading.ly",
+	"description": "A smart trading app that each stock trader must have",
+	"repository": "https://github.com/rbotla/trandingly",
+	"logo": "https://github.com/rbotla/trandingly/blob/master/public/favicon.ico",
+	"keywords": ["node", "trading", "express", "static", "react"],
+	"image": "heroku/nodejs"
+}

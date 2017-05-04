@@ -2,6 +2,13 @@
   "name": "trade",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "6.10.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rbotla/trandingly"
+  },
   "dependencies": {
     "ejs": "^2.5.6",
     "formsy-material-ui": "^0.6.0",
