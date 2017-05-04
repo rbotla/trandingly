@@ -15654,7 +15654,7 @@ function getPortfoliosCompleted(data) {
 
 function saveNewPortfolio(data) {
 	return function (dispatch) {
-		return fetch('http://localhost:3001/portfolios', {
+		return fetch('/api/portfolios', {
 			method: "POST",
 			body: data
 		});
@@ -15665,7 +15665,7 @@ function saveNewPortfolio(data) {
 
 function getPortfolios() {
 	return function (dispatch) {
-		return fetch('http://localhost:3001/portfolios', {
+		return fetch('/api/portfolios', {
 			method: "GET"
 		}).then(function (res) {
 			return res.json();

@@ -7,7 +7,7 @@ export function getPortfoliosCompleted (data) {
 
 export function saveNewPortfolio(data) {
 	return (dispatch) => {
-		return fetch('http://localhost:3001/api/portfolios', {
+		return fetch('/api/portfolios', {
 			method: "POST",
 			body: data
 		})
@@ -18,7 +18,7 @@ export function saveNewPortfolio(data) {
 
 export function getPortfolios () {
 	return (dispatch) => {
-		return fetch('http://localhost:3001/api/portfolios', {
+		return fetch('/api/portfolios', {
 			method: "GET"
 		})
 		.then((res) => res.json())
