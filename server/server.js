@@ -3,8 +3,7 @@ var path = require('path');
 var mongoose = require('mongoose');
 var fs = require('fs');
 var PORT = process.env.PORT || 3001;
-//var DB_URL = process.env.DB_URL || 'mongodb://localhost/db';
-var DB_URL = process.env.DB_URL || 'mongodb://heroku_xp694tf8:1SunAndMoon@ds119598.mlab.com:19598/heroku_xp694tf8';
+var DB_URL = process.env.MONGODB_URI || 'mongodb://localhost/db';
 
 var mongoUri = DB_URL;
 mongoose.connect(mongoUri);
