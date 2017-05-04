@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "ejs": "^2.5.6",
+    "express": "^4.15.2",
     "formsy-material-ui": "^0.6.0",
     "formsy-react": "^0.19.2",
     "material-ui": "^0.17.4",
