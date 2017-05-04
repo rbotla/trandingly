@@ -45,12 +45,15 @@ git add .
 git commit -m "comment"
 git push -u origin master
 
-
 Create new app in Heroku
 - Create app.json, make changes to package.json, Procfile
 - heroku login
-- heroku create <app name>
-- git push 
+heroku create <app name>
+git push heroku master
+heroku open
+
+heroku config:set DB_URL=mongodb://heroku_xp694tf8:1SunAndMoon@ds119598.mlab.com:19598/heroku_xp694tf8
+
 
 How to deploy code changes to heroku:
 git status
