@@ -37,3 +37,42 @@ https://elements.heroku.com/addons/mongolab
 https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction
 
 
+--------------------------------------------------------------------------------------------
+
+How to push code changes to Git personal:
+git status
+git add .
+git commit -m "comment"
+git push -u origin master
+
+
+Create new app in Heroku
+- Create app.json, make changes to package.json, Procfile
+- heroku login
+- heroku create <app name>
+- git push 
+
+How to deploy code changes to heroku:
+git status
+git add .
+git commit -m "comment"
+git push heroku master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
